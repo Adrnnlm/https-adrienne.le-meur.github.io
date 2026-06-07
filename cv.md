@@ -7,16 +7,14 @@ title: CV
 
 ## Situation actuelle
 
-Depuis 2024 : Maître de conférences / Professeur / Chargé de recherche à [institution].
+Depuis septembre 2025 : doctorante au CMAP.
 
 ## Parcours
 
-- 2023 : Postdoctorat, [institution]
-- 2020 : Doctorat en mathématiques, [université]
-- 2017 : Master, [université]
+- 2025 - : Doctorat en mathématiques, CMAP (Ecole Polytechnique) et LAMA (Université Gustave Eiffel)
+- 2017 : Master 2 Mathématiques de la Modélisation, Sorbonne Université
 
 ## Responsabilités
 
-- Organisation de séminaires
-- Encadrement
-- Responsabilités pédagogiques
+- Membre du comité d'organisation du séminaire des doctorants
+
