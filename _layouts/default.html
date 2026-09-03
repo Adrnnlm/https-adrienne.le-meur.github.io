@@ -1,1 +1,57 @@
-<link rel="stylesheet" href="/assets/css/style.css">
+<!doctype html>
+<html lang="{{ site.lang | default: 'fr' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <meta name="theme-color" content="#153a73">
+    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,650&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <script>
+      window.MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] } };
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script defer src="{{ '/assets/js/main.js' | relative_url }}"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+    <header class="site-header">
+      <div class="nav-shell">
+        <a class="brand" href="{{ '/' | relative_url }}" aria-label="Accueil — Adrienne Le Meur">
+          <span class="brand-mark" aria-hidden="true">A</span>
+          <span>
+            <strong>Adrienne Le Meur</strong>
+            <small>Probabilités · systèmes à mémoire</small>
+          </span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="menu-label">Menu</span><span aria-hidden="true">☰</span>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Navigation principale">
+          <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Accueil</a>
+          <a href="{{ '/research/' | relative_url }}" {% if page.url contains '/research' %}aria-current="page"{% endif %}>Recherche</a>
+          <a href="{{ '/publications/' | relative_url }}" {% if page.url contains '/publications' %}aria-current="page"{% endif %}>Publications</a>
+          <a href="{{ '/teaching/' | relative_url }}" {% if page.url contains '/teaching' %}aria-current="page"{% endif %}>Enseignement</a>
+          <a href="{{ '/cv/' | relative_url }}" {% if page.url contains '/cv' %}aria-current="page"{% endif %}>CV</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenu" class="page-shell{% if page.url == '/' %} home-shell{% endif %}">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>Adrienne Le Meur</strong>
+        <span>Doctorante en mathématiques</span>
+      </div>
+      <p>CMAP · École polytechnique &nbsp;—&nbsp; LAMA · Université Gustave Eiffel</p>
+      <p>© {{ 'now' | date: '%Y' }}</p>
+    </footer>
+  </body>
+</html>
+
