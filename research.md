@@ -8,7 +8,7 @@ permalink: /research/
 <header class="page-header">
   <p class="section-kicker">Recherche</p>
   <h1>Systèmes de particules<br>avec mémoire</h1>
-  <p class="page-intro">Mes travaux cherchent à comprendre comment les interactions passées influencent les dynamiques collectives, du système microscopique de particules à sa limite macroscopique.</p>
+  <p class="page-intro">Mes travaux visent à comprendre comment les interactions passées influencent les dynamiques collectives, du système microscopique de particules à sa limite macroscopique.</p>
 </header>
 
 ## Thèmes de recherche
