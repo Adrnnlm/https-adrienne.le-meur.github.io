@@ -1,9 +1,17 @@
-_config.yml
-index.md
-research.md
-publications.md
-teaching.md
-cv.md
-assets/
-  css/
-    style.css
+title: "Adrienne Le Meur"
+description: "Doctorante en probabilités — systèmes de particules en interaction avec mémoire"
+lang: fr
+url: "https://adrienne-le-meur.github.io"
+baseurl: ""
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
+permalink: pretty
+exclude:
+  - README.md
+  - build-preview.sh
+  - dist
+  - .openai
+
