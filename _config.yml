@@ -1,8 +1,8 @@
 title: "Adrienne Le Meur"
 description: "Doctorante en probabilités — systèmes de particules en interaction avec mémoire"
 lang: fr
-url: "https://adrienne-le-meur.github.io"
-baseurl: ""
+url: "https://adrnnlm.github.io"
+baseurl: "/https-adrienne.le-meur.github.io"
 
 markdown: kramdown
 kramdown:
@@ -14,4 +14,3 @@ exclude:
   - build-preview.sh
   - dist
   - .openai
-
