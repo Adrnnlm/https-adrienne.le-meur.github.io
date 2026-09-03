@@ -40,12 +40,12 @@ permalink: /
     <article>
       <span class="focus-number">02</span>
       <h3>Mémoire</h3>
-      <p>Comprendre comment les interactions dépendant du passé modifient les estimations classiques de propagation du chaos.</p>
+      <p>Comprendre comment la dépendance au passé modifie les estimations classiques de propagation du chaos.</p>
     </article>
     <article>
       <span class="focus-number">03</span>
       <h3>Temps long</h3>
-      <p>Étudier les états stationnaires, l’oubli de la mémoire et l’échange des limites $N \to \infty$ et $t \to \infty$.</p>
+      <p>Étudier le comportement en temps long et l’échange des limites $N \to \infty$ et $t \to \infty$.</p>
     </article>
   </div>
 </section>
