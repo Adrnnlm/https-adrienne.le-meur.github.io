@@ -10,7 +10,7 @@ permalink: /
   <h1>Adrienne<br><span>Le Meur</span></h1>
   <p class="hero-lead">Je travaille sur les systèmes de particules en interaction avec mémoire, leur limite de champ moyen et leur comportement en temps long.</p>
   <div class="hero-links">
-    <a class="button button-primary" href="/research/">Découvrir mes recherches <span aria-hidden="true">→</span></a>
+    <a class="button button-primary" href="{{ '/research/' | relative_url }}">Découvrir mes recherches <span aria-hidden="true">→</span></a>
     <a class="button button-secondary" href="mailto:adrienne.le-meur@polytechnique.edu">Me contacter</a>
   </div>
   <div class="equation-card" aria-label="Thèmes mathématiques">
