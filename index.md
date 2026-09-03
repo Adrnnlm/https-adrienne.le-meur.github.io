@@ -13,11 +13,6 @@ permalink: /
     <a class="button button-primary" href="{{ '/research/' | relative_url }}">Découvrir mes recherches <span aria-hidden="true">→</span></a>
     <a class="button button-secondary" href="mailto:adrienne.le-meur@polytechnique.edu">Me contacter</a>
   </div>
-  <div class="equation-card" aria-label="Thèmes mathématiques">
-    <span>mémoire</span>
-    <strong>μ<sub>t</sub><sup>N</sup> → μ<sub>t</sub></strong>
-    <span>temps long</span>
-  </div>
 </section>
 
 <section class="intro-grid">
@@ -58,7 +53,7 @@ permalink: /
 <section class="contact-panel">
   <div>
     <p class="section-kicker">Contact</p>
-    <h2>Échanger autour des probabilités et des modèles à mémoire</h2>
+    <h2>Où me trouver ?</h2>
   </div>
   <div>
     <a class="contact-email" href="mailto:adrienne.le-meur@polytechnique.edu">adrienne.le-meur<span aria-hidden="true">[at]</span>polytechnique.edu</a>
