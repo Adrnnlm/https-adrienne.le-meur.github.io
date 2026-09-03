@@ -11,4 +11,4 @@ Mes domaines de recherche portent sur les systèmes de paticules en interaction 
 
 ## Contact
 
-- Email : adrienne.le-meur[AT]polytechnique.ed
+- Email : adrienne.le-meur[AT]polytechnique.edu
